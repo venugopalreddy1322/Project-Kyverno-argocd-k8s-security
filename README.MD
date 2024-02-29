@@ -15,7 +15,8 @@ To explain the project with examples, using this configuration you can
 
 ## High Level Design
 
-![Kyverno Hight Level Design](https://github.com/venugopalreddy1322/Project-Kyverno-argocd-k8s-security/blob/main/Kyverno_project.png)
+![Kyverno Hight Level Design](https://github.com/venugopalreddy1322/project-diagrams/blob/main/Kyverno_project.png
+)
 
 ## Installation (Follwed official documentation)
 
@@ -86,8 +87,7 @@ Kyverno is a policy engine designed for Kubernetes
 A Kyverno policy is a collection of rules. Each rule consists of a match declaration, an optional exclude declaration, and one of a validate, mutate, generate, or verifyImages declaration. Each rule can contain only a single validate, mutate, generate, or verifyImages child declaration.
 
 Image source:[link](https://kyverno.io.)
-![Kyverno policy](https://github.com/venugopalreddy1322/Project-Kyverno-argocd-k8s-security/blob/main/kyvero_img.png
-)
+![Kyverno policy](https://github.com/venugopalreddy1322/project-diagrams/blob/main/kyvero_img.png)
 
 
 Policies can be defined as cluster-wide resources (using the kind ClusterPolicy) or namespaced resources (using the kind Policy.) As expected, namespaced policies will only apply to resources within the namespace in which they are defined while cluster-wide policies are applied to matching resources across all namespaces. Otherwise, there is no difference between the two types.
@@ -97,7 +97,7 @@ Additional policy types include PolicyException and (Cluster)CleanupPolicy which
 ### Architecture
 
 Image source:[link](https://kyverno.io.)
-![Kyverno_architecture](https://github.com/venugopalreddy1322/Project-Kyverno-argocd-k8s-security/blob/main/Kyverno_architecture.png)
+![Kyverno_architecture](https://github.com/venugopalreddy1322/project-diagrams/blob/main/Kyverno_architecture.png)
 
 For more policies:
 [link]()
