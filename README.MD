@@ -15,7 +15,7 @@ To explain the project with examples, using this configuration you can
 
 ## High Level Design
 
-![Kyverno Hight Level Design](/c/Users/venug/Practice/PROJECTS/Project_argocd_Kyverno_k8s_security/kyverno_prokect.png)
+![Kyverno Hight Level Design](https://github.com/venugopalreddy1322/Project-Kyverno-argocd-k8s-security/blob/main/Kyverno_project.png)
 
 ## Installation (Follwed official documentation)
 
